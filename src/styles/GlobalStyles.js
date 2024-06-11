@@ -1,4 +1,3 @@
-// src/styles/GlobalStyles.js
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
@@ -9,15 +8,18 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background: #f8f8f8;
-    color: #333;
+    background: #0a192f;
+    color: #ccd6f6;
   }
 
   a {
-    color: #0070f3;
+    color: #64ffda;
     text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   ul {

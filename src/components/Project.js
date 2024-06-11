@@ -1,7 +1,9 @@
+// src/components/Project.js
 import React from 'react';
 import styled from 'styled-components';
+import { motion } from 'framer-motion';
 
-const ProjectContainer = styled.section`
+const ProjectContainer = styled(motion.section)`
   padding: 4rem 2rem;
   background: #0a192f;
 
@@ -22,7 +24,12 @@ const ProjectContainer = styled.section`
 `;
 
 const Project = ({ title, description, link }) => (
-  <ProjectContainer id="projects">
+  <ProjectContainer
+    id="projects"
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    transition={{ duration: 0.5 }}
+  >
     <h3>{title}</h3>
     <p>{description}</p>
     <a href={link}>View Project</a>
