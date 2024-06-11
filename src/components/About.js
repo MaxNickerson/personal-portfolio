@@ -1,9 +1,18 @@
-// src/components/About.js
 import React from 'react';
 import styled from 'styled-components';
 
 const AboutContainer = styled.section`
-  /* styles for about section */
+  padding: 4rem 2rem;
+  background: #0a192f;
+
+  h2 {
+    color: #64ffda;
+  }
+
+  p {
+    max-width: 600px;
+    color: #8892b0;
+  }
 `;
 
 const About = () => (

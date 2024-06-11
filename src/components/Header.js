@@ -1,9 +1,29 @@
-// src/components/Header.js
 import React from 'react';
 import styled from 'styled-components';
 
 const HeaderContainer = styled.header`
-  /* styles for header */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #0a192f;
+
+  h1 {
+    color: #64ffda;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  nav a {
+    color: #ccd6f6;
+    font-weight: bold;
+    &:hover {
+      color: #64ffda;
+    }
+  }
 `;
 
 const Header = () => (

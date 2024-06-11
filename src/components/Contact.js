@@ -1,9 +1,18 @@
-// src/components/Contact.js
 import React from 'react';
 import styled from 'styled-components';
 
 const ContactContainer = styled.section`
-  /* styles for contact section */
+  padding: 4rem 2rem;
+  background: #0a192f;
+  text-align: center;
+
+  h2 {
+    color: #64ffda;
+  }
+
+  p {
+    color: #8892b0;
+  }
 `;
 
 const Contact = () => (
