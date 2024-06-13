@@ -92,7 +92,10 @@ const Home = () => (
       </Header>
       <Section id="about">
         <h2>About Me</h2>
-        <p>Your bio goes here...</p>
+        <p>I got my hands on my first computer during middle school, and it ignited a lifelong fascination with the digital world. This fascination led me to pursue a Computer Science Degree with a Data Analytics minor at Arcadia University and learn multiple programming languages, including Java, Python, HTML and JavaScript.
+
+Aside from Computer Science, I have a deep passion for weightlifting, music and esports. Feel free to connect with me if you're interested in exploring the endless possibilities of technology and gaming or simply want to chat about music taste. Let's embark on an exciting journey of growth and discovery!
+  </p>
       </Section>
       <Section id="experience">
         <h2>Experience</h2>
